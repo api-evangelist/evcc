@@ -64,5 +64,26 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-evcc (self-hosted) is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://evcc.io/
+evcc is an open-source, self-hosted smart charging solution for electric vehicles. It intelligently manages charging by coordinating wallboxes, heat pumps, home batteries, and solar surplus, supporting a wide range of manufacturers. Users retain full control and ownership of their data, with community-driven development and extensive integrations. A public demo API is available at https://demo.evcc.io/api, and comprehensive documentation is hosted at docs.evcc.io.
+
+**Areas:** Company · EV · SmartCharging · OpenSource · EnergyManagement · HomeAutomation
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://evcc.io/)
+- [Documentation](https://docs.evcc.io/)
+- [Getting started](https://docs.evcc.io/de/installation)
+- [API reference](https://docs.evcc.io/openapi.yaml)
+- [Pricing](https://docs.evcc.io/de/features/plans)
+- [Support](https://github.com/evcc-io/evcc/issues)
+- [Blog](https://docs.evcc.io/de/blog/)
+- [GitHub](https://github.com/evcc-io)
+- [Status](https://status.evcc.io/)
+
+**APIs profiled:** 11
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/evcc/](https://apis.io/providers/evcc/).
