@@ -68,6 +68,88 @@ evcc is an open-source, self-hosted smart charging solution for electric vehicle
 
 **Areas:** Company · EV · SmartCharging · OpenSource · EnergyManagement · HomeAutomation
 
+## evcc (self-hosted) on APIs.io
+
+Everything profiled for evcc (self-hosted) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/evcc/](https://apis.io/providers/evcc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [evcc (self-hosted) Auth API](https://apis.io/apis/evcc/evcc-auth-api/) — The auth API from evcc (self-hosted) — 5 operation(s) for auth.
+- [evcc (self-hosted) Battery API](https://apis.io/apis/evcc/evcc-battery-api/) — The battery API from evcc (self-hosted) — 12 operation(s) for battery.
+- [evcc (self-hosted) Db API](https://apis.io/apis/evcc/evcc-db-api/) — The db API from evcc (self-hosted) — 5 operation(s) for db.
+- [evcc (self-hosted) Experimental API](https://apis.io/apis/evcc/evcc-experimental-api/) — The experimental API from evcc (self-hosted) — 6 operation(s) for experimental.
+- [evcc (self-hosted) General API](https://apis.io/apis/evcc/evcc-general-api/) — The general API from evcc (self-hosted) — 9 operation(s) for general.
+- [evcc (self-hosted) Loadpoints API](https://apis.io/apis/evcc/evcc-loadpoints-api/) — The loadpoints API from evcc (self-hosted) — 29 operation(s) for loadpoints.
+- [evcc (self-hosted) Sessions API](https://apis.io/apis/evcc/evcc-sessions-api/) — The sessions API from evcc (self-hosted) — 3 operation(s) for sessions.
+- [evcc (self-hosted) State API](https://apis.io/apis/evcc/evcc-state-api/) — The state API from evcc (self-hosted) — 1 operation(s) for state.
+- [evcc (self-hosted) System API](https://apis.io/apis/evcc/evcc-system-api/) — The system API from evcc (self-hosted) — 5 operation(s) for system.
+- [evcc (self-hosted) Tariffs API](https://apis.io/apis/evcc/evcc-tariffs-api/) — The tariffs API from evcc (self-hosted) — 1 operation(s) for tariffs.
+- [evcc (self-hosted) Vehicles API](https://apis.io/apis/evcc/evcc-vehicles-api/) — The vehicles API from evcc (self-hosted) — 10 operation(s) for vehicles.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Evcc Agentic Access](https://apis.io/agentic-access/evcc/evcc-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ChargingSessions](https://apis.io/schemas/evcc/evcc-charging-sessions/)
+- [Flow](https://apis.io/schemas/evcc/evcc-flow/)
+- [GridSessions](https://apis.io/schemas/evcc/evcc-grid-sessions/)
+- [OnboardingState](https://apis.io/schemas/evcc/evcc-onboarding-state/)
+- [RepeatingPlan](https://apis.io/schemas/evcc/evcc-repeating-plan/)
+- [State](https://apis.io/schemas/evcc/evcc-state/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Evcc Context](https://apis.io/jsonld/evcc/evcc-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Evcc Openapi Overlay](https://apis.io/overlays/evcc/evcc-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [evcc (self-hosted) API Rules](https://apis.io/rules/evcc/evcc-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Evcc Authentication](https://apis.io/security/evcc/evcc-authentication/)
+- [Evcc Domain Security](https://apis.io/security/evcc/evcc-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Evcc Scopes](https://apis.io/scopes/evcc/evcc-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Evcc Plans Pricing](https://apis.io/plans/evcc/evcc-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Evcc Rate Limits](https://apis.io/rate-limits/evcc/evcc-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -82,8 +164,57 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [GitHub](https://github.com/evcc-io)
 - [Status](https://status.evcc.io/)
 
-**APIs profiled:** 11
-
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/evcc/](https://apis.io/providers/evcc/).
+**Kin Score 51.4** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 10.5 |
+
+**Agent readiness 37.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/evcc/](https://apis.io/providers/evcc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for evcc (self-hosted): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/evcc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
